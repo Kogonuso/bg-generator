@@ -29,6 +29,16 @@ run the command add followed by the file name.
 
 git status to see the uncommitted filed
 
-git commit to commit the files 
+git commit -m "message" to commit the files 
 
 git push to actually push the files into the project in github
+
+
+=============The above is how to create a project and push it to github=====
+
+
+
+
+Below we talk about how to actually make a pull request:
+
+
