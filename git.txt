@@ -1,0 +1,34 @@
+This is a lecture on how to use github for source control.
+
+Firstly, let's download and install the git client to our computer, then 
+create an empty project on github and call it 'bg-generator'
+
+Next we open folder in our computer and that will be our workspace
+then open a commadline terminal and cd to that folder
+Example: cd desktop\web-learning-javaScript\git
+
+This will now place the terminal in the workspace directory
+
+You can use the Dir command to list all the files and folders in the current directory
+
+The we will clone the bd-generator project from github using the command:
+git clone https://github.com/Kogonuso/bg-generator.git
+
+add files to the cloned project and 
+run the command 'git status' to see the untracked files on github
+
+to add the files to the github project on github
+run the command add followed by the file name.
+ Example:
+ git add index.html
+ git add style.css
+ git add script.js 
+
+ or you can just add all the files and folders in the directory by runnoing the command:
+ git add .
+
+git status to see the uncommitted filed
+
+git commit to commit the files 
+
+git push to actually push the files into the project in github
