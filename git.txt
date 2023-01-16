@@ -43,8 +43,19 @@ SUMMARY OF COMMANDS:
 =============The above is how to create a project and push it to github=====
 
 
-
-
 Below we talk about how to actually make a pull request:
+Say two people are working on the same project. The pull command:
+'git pull' downloads the lastest content of the project stored on Github onto your working directory and
+replaces older version of files that are on the working directory. So be sure you want these older files 
+replaced should there be new cnahges, or rename them before running the 'git pull' command.
 
 
+Branching:
+
+Up until now we have been working on the Main(Master) Branch.
+
+It is not good to be committing and pushing files to the production site, as this could break the site
+and cause loses.
+
+So to avoid this we create branch to temporarily hold new updates until they are confirmed to be used
+to merge/replace with the production files in the Main(Master) Branch.
