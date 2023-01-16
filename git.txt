@@ -11,27 +11,33 @@ This will now place the terminal in the workspace directory
 
 You can use the Dir command to list all the files and folders in the current directory
 
-The we will clone the bd-generator project from github using the command:
+Then we will clone the bd-generator project from github using the FIRST command:
 git clone https://github.com/Kogonuso/bg-generator.git
 
 add files to the cloned project and 
-run the command 'git status' to see the untracked files on github
+run the SECOND command 'git status' to see the untracked files on github
 
 to add the files to the github project on github
-run the command add followed by the file name.
+run the THIRD command 'git add' followed by the file name.
  Example:
  git add index.html
  git add style.css
  git add script.js 
 
- or you can just add all the files and folders in the directory by runnoing the command:
+ or you can just add all the files and folders in the directory by running the command:
  git add .
 
-git status to see the uncommitted filed
 
-git commit -m "message" to commit the files 
+Run the FOURTH command 'git commit' -m "message to show changes or new action you took" to commit the files 
 
-git push to actually push the files into the project in github
+Run the FIFTH command 'git push' to actually push the files into the project in github
+
+SUMMARY OF COMMANDS:
+'git clone url' to download project into your computer
+'git status' to see the status/branch you are on Github
+'git add fileName or . for all' to add new files to be committed into the project
+'git commit -m "message"' to commit files to be pushed into the project with message to show
+'git push' to actually push the project files into the Github repository.
 
 
 =============The above is how to create a project and push it to github=====
