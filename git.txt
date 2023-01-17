@@ -59,3 +59,23 @@ and cause loses.
 
 So to avoid this we create branch to temporarily hold new updates until they are confirmed to be used
 to merge/replace with the production files in the Main(Master) Branch.
+
+
+To check branches we has run the command:
+'git branch'
+To create a new branch, run the command:
+'git branch newBranchname'
+To switch from branch to another, run the command:
+'git checkout branchname'
+
+After adding, committing files into the new branch, run the below command to push into the new branch:
+git push --set-upstream origin branchfeature
+
+After you have push the files to the new branch and go to Github, you enter message to the person(s) to 
+approve the merger of the new branch into the Main branch by creating Pull Request.
+
+Once the project is approved, then the branch can be safely merged to the Main branch as 
+far as their is no CONFLICT.
+
+Conflict....
+The commands to discard all local changes in Git are: git reset –hard. git clean -fxd
